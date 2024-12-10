@@ -15,7 +15,7 @@ def nivelDoHeroi():
             print("Ascendente")
         elif exp <= 10000:
             print("Imortal")
-        elif exp > 10000:
+        else:
             print("Radiante")
     except ValueError:
         print("Por favor, digite um número válido.")  # Trata entradas inválidas
